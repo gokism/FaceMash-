@@ -1,4 +1,6 @@
 FaceMash::Application.routes.draw do
+  get "match/start"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

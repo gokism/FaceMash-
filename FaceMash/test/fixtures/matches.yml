@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  girl_one: 1
+  girl_two: 1
+  matches: 1
+  girl_one_won: 1
+  girl_two_won: 1
+
+two:
+  girl_one: 1
+  girl_two: 1
+  matches: 1
+  girl_one_won: 1
+  girl_two_won: 1

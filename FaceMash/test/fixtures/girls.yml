@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  age: 1
+  img_path: MyString
+  total_matches: 1
+  matches_won: 1
+  matches_lost: 1
+  rating: 1
+  ranking: 1
+
+two:
+  name: MyString
+  age: 1
+  img_path: MyString
+  total_matches: 1
+  matches_won: 1
+  matches_lost: 1
+  rating: 1
+  ranking: 1
