@@ -1,3 +1,20 @@
-<h1>Match#start</h1>
-<p>Find me in app/views/match/start.html.erb</p>
-<%= Time.now%>
+<div class='navbar navbar-inverse'>
+	<div align="center" class='navbar-inner nav-collapse' style="height: auto;">
+		<ul class="nav">
+			<h2 style="color:white">Game</h2>
+		</ul>
+	</div>
+</div>
+
+<div id="company_all_info" class="well" style="min-height: 600px">
+
+	<div style="position:relative;float:left;">
+		<%=link_to image_tag(@girl_one.img_path, :size=>"200x200"),@girl_one_won%>
+	</div>
+
+	<div style="position:relative;float:right">
+		<%=link_to image_tag(@girl_two.img_path ,:size=>"200x200"),@girl_two_won%>
+
+	</div>
+
+</div>

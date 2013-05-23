@@ -4,9 +4,9 @@ class CreateGirls < ActiveRecord::Migration
       t.string :name
       t.integer :age
       t.string :img_path
-      t.integer :total_matches
-      t.integer :matches_won
-      t.integer :matches_lost
+      t.integer :total_matches ,:default=>0
+      t.integer :matches_won,:default=>0
+      t.integer :matches_lost,:default=>0
       t.integer :rating
       t.integer :ranking
 
