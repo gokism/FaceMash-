@@ -20,10 +20,10 @@ ActiveRecord::Schema.define(:version => 20130503125950) do
     t.integer  "total_matches", :default => 0
     t.integer  "matches_won",   :default => 0
     t.integer  "matches_lost",  :default => 0
-    t.integer  "rating"
+    t.integer  "rating",        :default => 1400
     t.integer  "ranking"
-    t.datetime "created_at",                   :null => false
-    t.datetime "updated_at",                   :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
   end
 
   create_table "matches", :force => true do |t|

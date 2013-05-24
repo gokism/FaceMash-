@@ -7,7 +7,7 @@ class CreateGirls < ActiveRecord::Migration
       t.integer :total_matches ,:default=>0
       t.integer :matches_won,:default=>0
       t.integer :matches_lost,:default=>0
-      t.integer :rating
+      t.integer :rating,:default=>1400
       t.integer :ranking
 
       t.timestamps
