@@ -6,6 +6,14 @@
 	</div>
 </div>
 
+<div id="top_rankers" class="well">
+	<%@top_girls.each do|girl|%>
+	<%=image_tag(girl.img_path,:size=>"200x200")%>
+	<%end%>
+	
+	</div>
+
+
 <div id="company_all_info" class="well" style="min-height: 600px">
 
 	<div style="position:relative;float:left;">
